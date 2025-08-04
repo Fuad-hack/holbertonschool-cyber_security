@@ -1,1 +1,1 @@
-lsb_release -i | cut -f2
+lsb_release -i | cut -d':' -f2 | xargs
