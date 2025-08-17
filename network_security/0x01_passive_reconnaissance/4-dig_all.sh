@@ -1,2 +1,2 @@
 #!/bin/bash
-nslookup -type=TXT $1
+dig $1 +noall +answer any
