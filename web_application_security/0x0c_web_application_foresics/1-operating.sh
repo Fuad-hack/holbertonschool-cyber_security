@@ -1,2 +1,2 @@
 #!/bin/bash
-cat dmesg | grep -i "server"
+grep -E "4.2.4-1ubuntu3" dmesg
